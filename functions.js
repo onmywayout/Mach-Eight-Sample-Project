@@ -154,8 +154,9 @@ export function searchMatchingPair(event, targetValue)
                 for (let matchingPlayer = 0; matchingPlayer < heightsMatrix[searchedPairHeight].length; matchingPlayer++) 
                 {
                     //For when both players have the same height
-                    if(firstPlayersSameHeight[0].height == searchedPairHeight)
+                    if(firstPlayersSameHeight[0].height == searchedPairHeight && matchingPlayer<= j )
                         matchingPlayer = j+1;
+                    
 
 
                     let secondPlayer = heightsMatrix[searchedPairHeight][matchingPlayer];
