@@ -188,10 +188,10 @@ function populateResponse(response)
     var template = document.querySelector('#playersRow').content;
     var toInsert = document.querySelector("tbody");
 
-    if(response.length==0)
+    if(!response || !response.length ||response.length==0)
     {
         toInsert.innerHTML = "No Matches Found";
-
+        return;
     }
 
 
