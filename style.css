@@ -1,0 +1,39 @@
+
+.info
+{
+    color: darkgray;
+}
+.informationInput
+{
+    font-weight: b;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+label {}
+
+#resultsTable
+{
+    text-align: center;
+    margin: 0 auto;
+    table-layout: fixed;
+    width: 85%;
+    border-collapse: collapse;
+    border: 3px solid darkblue;
+}
+
+#resultsTable thead
+{
+    font-weight: bold;
+}
+
+tr 
+{
+    height: 35px;
+}
+
+td
+{
+    text-align: center;
+}

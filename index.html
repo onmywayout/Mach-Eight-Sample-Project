@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+	<title>Input Calculator for NBA</title>
+</head>
+<body>
+    <div class="informationInput">
+      <div class="info">
+        This application takes a single integer input. The
+        application will download the raw data from https://mach-eight.uc.r.appspot.com and print a list of all pairs of players
+        whose height in inches adds up to the integer input to the application. If no
+        matches are found, the application will print "No matches found" <br><br>
+      </div>
+        <label for="numberInput">Please enter the integer</label>
+        <input type="number" name="general" id="numberInput">
+        <input type="button" value="Calculate" id="submitButton">
+        <br><br>
+    </div>
+    <div class="informationOutput">
+        <table id="resultsTable">
+            <thead>
+              <tr>
+                <td>Player Name</td>
+                <td>Player Height</td>
+                <td>Player Name</td>
+                <td>Player Height</td>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+          
+          <template id="playersRow">
+            <tr>
+              <td class="p1Name"></td>
+              <td class="p1Height"></td>
+              <td class="p2Name"></td>
+              <td class="p2Height"></td>
+              
+            </tr>
+          </template>
+    </div>
+    <script src="./functions.js" type="module" ></script>
+</body>
+</html>
