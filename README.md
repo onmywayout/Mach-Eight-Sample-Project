@@ -1,7 +1,7 @@
 # Mach-Eight-Sample-Project
 This is the solution for the Mach Eight First Challenge
 
-To run this code simply enter to the given link
+To run this code simply enter to https://onmywayout.github.io/Mach-Eight-Sample-Project/
 
 OR download this code and run wiht Live Server on Visual Studio or any other HTML server
 
